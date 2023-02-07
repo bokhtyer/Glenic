@@ -1,0 +1,170 @@
+/*
+Template Name: Glenic - Health & Medical HTML5 Template
+Description: Glenic - Health & Medical HTML5 Template
+Author: CodexUnicTheme
+Version: 1.0
+ *--------------CSS INDEX------------
+ * #-Default CSS
+ * #-Header
+ *
+*/
+/*
+ * #-Default CSS
+*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+:root {
+  --body-color: #424B5C;
+  --primary-color: #6E9EFA;
+  --headding-color: #222222;
+  --section-bg: #F8F8F8;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	color: var(--body-color);
+	font-family: 'DM Sans', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+a,
+button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+*::-moz-selection {
+	background: var(--primary-color);
+	color: #fff;
+	text-shadow: none;
+}
+::-moz-selection {
+	background: var(--primary-color);
+	color: #fff;
+	text-shadow: none;
+}
+::selection {
+	background: var(--primary-color);
+	color: #fff;
+	text-shadow: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	padding: 0;
+}
+h1,h1,h2,h3,h4,h5,h6{
+	color: var(--headding-color);
+	font-weight: 700;
+}
+ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	transition: .4s;
+	-webkit-transition: all .4s ease-in-out;
+}
+a:hover{
+	text-decoration: none;
+	color: var(--primary-color);
+}
+button:focus{
+	outline: none;
+}
+input:focus{
+	outline: none;
+}
+textarea:focus{
+	outline: none;
+}
+p{
+	color: var(--body-color);
+	line-height: 30px;
+	font-size: 16px;
+}
+.text-right{
+	text-align: right;
+}
+/*Scroll Area*/
+.scroll-area {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+    display: none;
+}
+.scroll-area i {
+    width: 45px;
+    height: 45px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+}
+/*
+ * #-Header
+*/
+.header-top {
+    background: var(--section-bg);
+    padding: 14px 0px;
+}
+.header-left a {
+    font-size: 14px;
+    color: var(--body-color);
+    line-height: 24px;
+    font-weight: 400;
+    display: inline-block;
+}
+.header-left span{
+	font-size: 14px;
+    color: var(--body-color);
+    line-height: 24px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 0px 10px;
+}
+.header-left a:hover{
+	color: var(--primary-color);
+}
+.header-right .social-icon {
+    display: inline-block;
+}
+.header-right .talk-btn{
+	display: inline-block;
+	margin-left: 60px;
+}
+.header-right .social-icon span {
+    display: inline-block;
+    padding: 0px 15px;
+    font-size: 14px;
+}
+.header-right .social-icon span a{
+	color: var(--body-color);
+}
+.header-right .social-icon span a:hover{
+	color: var(--primary-color);
+}
+.header-right .talk-btn a {
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: var(--body-color);
+    display: flex;
+    align-items: center;
+}
+.header-right .talk-btn a i{
+	padding-left: 8px;
+    font-size: 20px;
+    color: var(--primary-color);
+}
+.header-right .talk-btn a:hover{
+	color: var(--primary-color);
+}
