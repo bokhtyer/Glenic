@@ -69,6 +69,38 @@
     //     });
     // }
 
+     /*---Testimonial---*/
+    var $InfoSlider = $('.infobox-slider');
+        if($InfoSlider.length > 0){
+        $('.infobox-slider').owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 8000,
+            items: 4,
+            margin:30,
+            dots:true,
+            responsiveClass:true,
+            responsive:{
+                    0:{
+                    items: 1,
+                    stagePadding: 0,
+                    margin: 0,
+                    center:false,
+                },
+                600:{
+                    items:2,
+                    center:false,
+                },
+                768:{
+                    items:2,
+                    center:false,
+                },
+                992:{
+                    items:4,
+                },
+            }
+        });
+    }
 
 	// Scroll Area
 	$(document).ready(function(){
