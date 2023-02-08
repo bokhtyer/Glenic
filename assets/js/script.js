@@ -7,15 +7,22 @@
 	// $('select').niceSelect();
 
 
-	// $(".header-search-icon").click(function () {
-    //   	if ($('.header-top-search-form').hasClass("active")) {
-    //     	$(".header-top-search-form, .header-search-icon").removeClass("active");
-    //   	}
-    //   	else {
-    //     	$(".header-top-search-form").removeClass("active");
-    //     	$('.header-top-search-form, .header-search-icon').addClass("active");
-    //   	}
-  	// });
+	$(".header-search-icon").click(function () {
+      	if ($('.header-top-search-form').hasClass("active")) {
+        	$(".header-top-search-form, .header-search-icon").removeClass("active");
+      	}
+      	else {
+        	$(".header-top-search-form").removeClass("active");
+        	$('.header-top-search-form, .header-search-icon').addClass("active");
+      	}
+  	});
+  	// Sidebar
+    $('.right-humbugur-btn').click(function(){
+        $('.about-sidebar-section, .off_canvars_overlay').addClass('active');
+    });
+    $('.hide-sidebar i, .off_canvars_overlay').click(function(){
+        $('.about-sidebar-section, .off_canvars_overlay').removeClass('active');
+    });
   	
   	 // /*---slider activation---*/
     // var $HeroSliderSlider2 = $('.hero-slider-full-2');
