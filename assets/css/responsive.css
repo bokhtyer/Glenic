@@ -1,6 +1,19 @@
+@media (min-width: 1600px){
+	.hero-area .hero-image {
+	    margin-right: -160px;
+	}
+}
 @media (min-width: 1300px){
 	.container {
 		max-width: 1240px;
+	}
+	.hero-image {
+	    margin-right: -25px;
+	}
+}
+@media (max-width: 1200px){
+	.hero-image {
+	    margin-right: -30px;
 	}
 }
 @media (min-width: 992px){

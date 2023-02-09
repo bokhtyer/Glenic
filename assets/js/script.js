@@ -109,6 +109,22 @@
         });
     }
 
+    // /*---slider activation---*/
+    var $ClientLogoSlider = $('.client-logo-slider');
+    if($ClientLogoSlider.length > 0){
+        $ClientLogoSlider.owlCarousel({
+            loop: true,
+            dots:false,
+            autoplay: true,
+            autoplayTimeout: 20000,
+            items: 1,
+            nav:false,
+            margin:50,
+            smartSpeed: 1500,
+            autoWidth:true
+        });
+    }
+
 	// Scroll Area
 	$(document).ready(function(){
 	    $('.scroll-area').click(function(){
