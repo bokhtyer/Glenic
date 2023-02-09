@@ -125,6 +125,41 @@
         });
     }
 
+    // Project Slider
+    var $ProjectHomeslide = $('.project-homeslide');
+        if($ProjectHomeslide.length > 0){
+        $('.project-homeslide').owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 8000,
+            items: 3,
+            margin:30,
+            dots:true,
+            nav: true,
+            responsiveClass:true,
+            navText:['<span class="slidenav left-nav"><i class="fa-solid fa-arrow-left-long"></i></span>','<span class="slidenav right-nav"><i class="fa-solid fa-arrow-right-long"></i></span>'],
+            responsive:{
+                    0:{
+                    items: 1,
+                    stagePadding: 0,
+                    margin: 0,
+                    center:false,
+                },
+                600:{
+                    items:2,
+                    center:false,
+                },
+                768:{
+                    items:2,
+                    center:false,
+                },
+                992:{
+                    items:3,
+                },
+            }
+        });
+    }
+
 	// Scroll Area
 	$(document).ready(function(){
 	    $('.scroll-area').click(function(){
