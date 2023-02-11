@@ -912,7 +912,6 @@ p{
 /*
  * #-Homepage Project
 */
-.homepage-project{}
 /* Tabs Design */
 .glenic-tabs ul.nav-pills{
     display: block;
@@ -946,13 +945,13 @@ p{
 #project-content.tab-content{
     position: relative;
 }
-.project-homeslide.owl-theme .owl-nav {
+#project-content .owl-theme .owl-nav {
     position: absolute;
     top: -114px;
     right: 0;
 }
 /* Project Slider */
-.project-homeslide.owl-carousel .owl-stage{
+#project-content .owl-carousel .owl-stage{
     padding-bottom: 55px;
 }
 span.slidenav {
@@ -974,16 +973,16 @@ span.slidenav:hover{
 .owl-theme .owl-nav [class*="owl-"]:hover {
     background: inherit
 }
-.project-homeslide.owl-theme .owl-dots .owl-dot span{
+#project-content .owl-theme .owl-dots .owl-dot span{
     background: rgba(66, 75, 92, 0.1);
     border-width: 1px;
     border-color: rgba(66, 75, 92, 0.1);
     border-style: solid;
 }
-.project-homeslide.owl-theme .owl-dots .owl-dot:hover span{
+#project-content .owl-theme .owl-dots .owl-dot:hover span{
     border-color: var(--primary-color)
 }
-.project-homeslide.owl-theme .owl-dots .owl-dot.active span{
+#project-content .owl-theme .owl-dots .owl-dot.active span{
     background: var(--primary-color);
     border-color: var(--primary-color)
 }
@@ -1069,6 +1068,157 @@ span.slidenav:hover{
     color: var(--headding-color);
     display: block;
     padding-bottom: 10px;
+}
+/*
+ * #-Helpline Area
+*/
+.helpline-image{
+    position: relative;
+}
+.helpline-shape{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.helpline-image img{
+    width: 100%
+}
+.helpline-content ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.helpline-content ul li{
+    display: block;
+    padding-left: 23px;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--headding-color);
+    padding-bottom: 5px;
+    position: relative;
+}
+.helpline-content ul li::after {
+	content: "";
+	position: absolute;
+	left: 0px;
+	top: 14px;
+	width: 4px;
+	height: 12px;
+	border-radius: 3px;
+	background: var(--primary-color);
+}
+.helpline-number{
+    padding: 17px 30px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+.helpline-number .number-icon {
+	background: var(--primary-color);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	text-align: center;
+	float: left;
+	line-height: 36px;
+	margin-top: 6px;
+}
+.helpline-number .number-text {
+	padding-left: 8px;
+	overflow: hidden;
+}
+.helpline-number .number-text span{
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--body-color);
+}
+.helpline-number .number-text h3{
+    font-size: 16px;
+}
+.helpline-number .number-text a{
+    line-height: 24px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+/*
+ * #-Testimonial Area
+*/
+.testimonial-area{
+    background: var(--section-bg);
+}
+.single-testimonial {
+	background: #FFFFFF;
+	border-radius: 10px;
+	padding: 100px 50px 35px 50px;
+	position: relative;
+}
+.testimonial-top{
+    position: absolute;
+    width: 100%;
+    top: -6%;
+    display: flex;
+    align-items: center;
+}
+.testimonial-img{
+    padding-right: 16px;
+    position: relative
+}
+.testimonial-img img{
+    max-width: 95px;
+    width: 100%;
+    border-radius: 50%;
+    padding: 5px;
+    border: 2px solid var(--primary-color)
+}
+.testimonial-img::after {
+	content: "❝";
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	background: var(--primary-color);
+	color: #FFFFFF;
+	font-size: 24px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 50%;
+	font-weight: 400;
+	left: 0;
+    top: 0;
+}
+.testimonial-text{
+    padding-top: 15px;
+}
+.testimonial-text h5{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--headding-color)
+}
+.testimonial-text span{
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: var(--primary-color)
+}
+.all-testimonial.owl-carousel .owl-stage {
+	padding-bottom: 50px;
+    padding-top: 50px;
+}
+.all-testimonial.owl-theme .owl-dots .owl-dot span{
+    background: rgba(66, 75, 92, 0.1);
+    border-width: 1px;
+    border-color: rgba(66, 75, 92, 0.1);
+    border-style: solid;
+}
+.all-testimonial.owl-theme .owl-dots .owl-dot:hover span{
+    border-color: var(--primary-color)
+}
+.all-testimonial.owl-theme .owl-dots .owl-dot.active span{
+    background: var(--primary-color);
+    border-color: var(--primary-color)
+}
+.all-testimonial.owl-carousel .owl-item.active.center .single-testimonial{
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
 }
 /*
  * #-Button
