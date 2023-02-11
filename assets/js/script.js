@@ -160,6 +160,39 @@
         });
     }
 
+    // Testimonial Slider
+    var $TestimonialSlide = $('.all-testimonial');
+        if($TestimonialSlide.length > 0){
+        $('.all-testimonial').owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 8000,
+            items: 3,
+            margin:30,
+            dots:true,
+            center: true,
+            responsiveClass:true,
+            responsive:{
+                    0:{
+                    items: 1,
+                    stagePadding: 0,
+                    margin: 0,
+                    center:false,
+                },
+                600:{
+                    items:2,
+                    center:false,
+                },
+                768:{
+                    items:2,
+                    center:false,
+                },
+                992:{
+                    items:3,
+                },
+            }
+        });
+    }
 	// Scroll Area
 	$(document).ready(function(){
 	    $('.scroll-area').click(function(){
