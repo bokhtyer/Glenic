@@ -24,10 +24,25 @@
         $('.about-sidebar-section, .off_canvars_overlay').removeClass('active');
     });
   	
-  	 // /*---slider activation---*/
+  	 // /*---Hero Slider1---*/
     var $HeroSliderSlider = $('.hero-slider-full');
     if($HeroSliderSlider.length > 0){
         $HeroSliderSlider.owlCarousel({
+            loop: true,
+            dots:false,
+            autoplay: false,
+            autoplayTimeout: 20000,
+            animateOut: 'fadeOut',
+            items: 1,
+            nav:true,
+            navText:['<span class="hero-nav"><i class="fa-solid fa-arrow-left-long"></i></span>','<span class="hero-nav"><i class="fa-solid fa-arrow-right-long"></i></span>'],
+            smartSpeed: 1000,
+        });
+    }
+     // /*---Hero Slider 2---*/
+    var $HeroSliderSlider2 = $('.hero-slider-full2');
+    if($HeroSliderSlider2.length > 0){
+        $HeroSliderSlider2.owlCarousel({
             loop: true,
             dots:false,
             autoplay: false,
