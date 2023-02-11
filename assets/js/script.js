@@ -4,7 +4,7 @@
 	// WOW JS
 	new WOW().init();
 	// Nice Select
-	// $('select').niceSelect();
+	$('select').niceSelect();
 
 
 	$(".header-search-icon").click(function () {

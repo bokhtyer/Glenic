@@ -12,6 +12,8 @@ Version: 1.0
  * #-Footer
  * #-Company Logo Section
  * #-Blog Item
+ * #-What We Do Best Section
+ * #-Get Appointment Form
 */
 /*
  * #-Default CSS
@@ -1819,4 +1821,168 @@ span.slidenav:hover{
     margin: 0 auto;
     border-radius: 50%;
     z-index: -1;
+}
+/*
+ * #-What We Do Best Section
+*/
+.what-we-best-area{
+    position: relative;
+}
+.what-we-best-img {
+    position: absolute;
+    width: 50%;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+.what-we-best-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.what-we-best-content .section-title h2.pb-10{
+    padding-bottom: 10px;
+}
+.what-we-best-content {
+    padding: 100px 0px;
+    padding-left: 40px;
+}
+.what-we-best-content .we-icon-box {
+    position: relative;
+    width: 100%;
+}
+.what-we-best-content .we-icon-box .icon {
+    float: left;
+    margin-right: 20px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    background: #6E9EFA1A;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.what-we-best-content .we-icon-box  .content {
+    overflow: hidden;
+}
+.what-we-best-content .we-icon-box  .content  h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+.what-we-best-img.right {
+    right: 0;
+    left: inherit;
+}
+.what-we-best-area.black-bg {
+    background: #222222;
+}
+.what-we-best-area.black-bg .what-we-best-content {
+    padding-left: 0px;
+    padding-right: 40px;
+}
+.what-we-best-area.black-bg .section-title p {
+    color: rgba(255, 255, 255, 0.6);
+}
+.what-we-best-content .we-icon-box .content h5 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+}
+.what-we-best-content .we-icon-box .content h5 a{
+    font-family: 'Halyard Display';
+    color: #fff;
+}
+/*
+ * #-Get Appointment Form
+*/
+.get-appointment-area{
+    background: #222;
+    padding: 100px 0px;
+}
+.get-appointment-form .single-field{
+    padding-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+}
+.get-appointment-form .single-field label {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline-block;
+    font-family: 'Halyard Display';
+}
+.get-appointment-form .single-field .nice-select {
+    height: 50px;
+    align-items: center;
+    display: flex;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    background: transparent;
+    padding: 16px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.6);
+    -webkit-transition:all .3s ease;
+    transition: all .3s ease;
+}
+.get-appointment-form .single-field .nice-select:focus{
+    border-color: var(--primary-color);
+}
+.get-appointment-form .single-field .nice-select ul.list {
+    width: 100%;
+    color: var(--body-color);
+}
+.get-appointment-form .single-field .nice-select ul.list li.option {
+    font-size: 14px;
+    border-bottom: 1px solid #dddddd5c;
+}
+.get-appointment-form .single-field .nice-select ul.list li.option:last-child{
+    border-bottom: none;
+}
+.get-appointment-form .single-field input {
+    width: 100%;
+    height: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    background: transparent;
+    padding: 0px 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.6);
+    -webkit-transition:all .3s ease;
+    transition: all .3s ease;
+}
+.get-appointment-form .single-field input:focus{
+    border-color: var(--primary-color);
+}
+.get-appointment-form .single-field button.button-1 {
+    width: 100%;
+    height: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background: var(--primary-color);
+    border: none;
+    color: #fff;
+}
+.get-appointment-form .single-field button.button-1 i {
+    width: 46px;
+    height: 46px;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 99;
+    position: relative;
+    color: #fff;
+    font-size: 18px;
 }
