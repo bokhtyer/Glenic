@@ -1302,14 +1302,17 @@ span.slidenav:hover{
     border-radius: 5px;
 }
 .helpline-number .number-icon {
-	background: var(--primary-color);
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	text-align: center;
-	float: left;
-	line-height: 36px;
-	margin-top: 6px;
+    background: var(--primary-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+    line-height: 36px;
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .helpline-number .number-text {
 	padding-left: 8px;
@@ -1491,6 +1494,36 @@ span.slidenav:hover{
 .button-2:hover{
     color: var(--primary-color);
     background: #fff;
+}
+.video-btn a {
+    background: var(--primary-color);
+    height: 130px;
+    width: 130px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 100px;
+    font-size: 30px;
+    -webkit-transition: .5s -webkit-animation ripple-red 1s linear infinite;
+    animation: ripple-red 1s linear infinite;
+    -webkit-transition: .5s;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+@-webkit-keyframes ripple-red {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3)
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(2241, 42, 2, 0)
+    }
+}
+.video-btn span {
+    display: none;
 }
 /*
  * #-Footer
@@ -1823,6 +1856,74 @@ span.slidenav:hover{
     z-index: -1;
 }
 /*
+ * Info Box 4
+*/
+.info-box-4 {
+    text-align: center;
+}
+.info-box-4 .icon {
+    border: 1px dashed rgba(34, 34, 34, 0.1);
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    margin: 0 auto;
+    margin-bottom: 22px;
+}
+.info-box-4 .icon img {
+    width: 78px !important;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+.info-box-4 .icon img.hover-img {
+    display: none;
+}
+.info-box-4:hover .icon{
+    border-color: var(--primary-color);
+}
+.info-box-4:hover .icon img{
+    display: none;
+}
+.info-box-4:hover .icon img.hover-img{
+    display: block;
+}
+.info-box-4 .content h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.info-box-4 .content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    max-width: 340px;
+    margin: 0px auto;
+}
+.our-best-services-slider.owl-theme .owl-dots {
+    margin-top: 45px !important;
+}
+.our-best-services-slider.owl-theme .owl-dots .owl-dot span{
+    background: rgba(66, 75, 92, 0.1);
+    border-width: 1px;
+    border-color: rgba(66, 75, 92, 0.1);
+    border-style: solid;
+}
+.our-best-services-slider.owl-theme .owl-dots .owl-dot:hover span{
+    border-color: var(--primary-color)
+}
+.our-best-services-slider.owl-theme .owl-dots .owl-dot.active span{
+    background: var(--primary-color);
+    border-color: var(--primary-color)
+}
+.owl-theme .owl-dots .owl-dot span {
+    margin: 5px;
+}
+/*
  * #-What We Do Best Section
 */
 .what-we-best-area{
@@ -1901,6 +2002,27 @@ span.slidenav:hover{
 .get-appointment-area{
     background: #222;
     padding: 100px 0px;
+    position: relative;
+}
+.get-appointment-area .shap img{
+    position: absolute;
+}
+.get-appointment-area .shap img.shap1 {
+    top: 30%;
+    left: 3%;
+    transform: rotate(18deg);
+}
+.get-appointment-area .shap img.shap2 {
+    top: 37%;
+    left: 26%;
+}
+.get-appointment-area .shap img.shap3 {
+    top: 5%;
+    left: 57%;
+}
+.get-appointment-area .shap img.shap4 {
+    right: 6%;
+    top: 48%;
 }
 .get-appointment-form .single-field{
     padding-bottom: 20px;
@@ -1985,4 +2107,79 @@ span.slidenav:hover{
     position: relative;
     color: #fff;
     font-size: 18px;
+}
+.get-appointment-area.style-2 {
+    background: var(--section-bg);
+    padding-bottom: 0px;
+}
+.get-appointment-area .single-field textarea {
+    border: 2px solid rgba(34, 34, 34, 0.1);
+    border-radius: 5px;
+    height: 100px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--body-color);
+    padding: 16px;
+    width: 100%;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+.get-appointment-area .single-field textarea:focus{
+    border-color: var(--primary-color);
+}
+.get-appointment-form.style-2 .single-field label {
+    color: var(--headding-color);
+}
+.get-appointment-form.style-2 .single-field .nice-select {
+    border: 2px solid rgba(34, 34, 34, 0.1);
+    color: var(--body-color);
+}
+.get-appointment-form.style-2 .single-field input {
+    border: 2px solid rgba(34, 34, 34, 0.1);
+    color: var(--body-color);
+}
+.get-appointment-form.style-2 .single-field .nice-select:focus {
+    border-color: var(--primary-color);
+}
+.get-appointment-form.style-2 .single-field input:focus {
+    border-color: var(--primary-color);
+}
+.get-appointment-form.style-2 .single-field button.button-1 {
+    width: auto;
+}
+.get-appointment-form.style-2 .shap img.shap1 {
+    bottom: 5%;
+    left: 3%;
+}
+.get-appointment-form.style-2 .shap img.shap2 {
+    top: 48%;
+    left: 26%;
+}
+.get-appointment-form.style-2 .shap img.shap4 {
+    right: 4%;
+    top: 47%;
+}
+/*
+ * Video Play Section
+*/
+.video-play-section {
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 125px 0px;
+}
+.video-play-section .content h4 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 64px;
+    color: #fff;
+}
+.video-play-section .content h2{
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 64px;
+    color: #fff;
+    text-transform: capitalize;
 }
