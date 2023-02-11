@@ -1030,7 +1030,7 @@ p{
 	font-weight: 500;
 	font-size: 50px;
 	line-height: 62px;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 }
 .section-title p{
 	padding-bottom: 10px;
@@ -1329,6 +1329,118 @@ span.slidenav:hover{
     font-weight: 500;
     color: var(--primary-color);
 }
+/* About Shape */
+.helpline-image img.homeabout-main{
+    position: relative;
+    z-index: 9;
+}
+.homeabout-shape1 {
+	height: 130px;
+	width: 130px;
+	background: var(--primary-color);
+	padding: 28px 20px;
+	text-align: center;
+	border-radius: 10px;
+	position: absolute;
+	right: 4%;
+	top: 2%;
+    z-index: 999;
+}
+.homeabout-shape1 h2{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 61px;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+.homeabout-shape1 p{
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.homeabout-shape2 {
+	position: absolute;
+	left: -4%;
+	top: 48%;
+    z-index: 99;
+}
+.homeabout-shape2 img{
+    max-width: 42px;
+}
+.homeabout-shape3 {
+	position: absolute;
+	bottom: -19%;
+	left: -20%;
+}
+.homeabout-shape3 img{
+    width: auto;
+}
+.homeabout-shape4 {
+	position: absolute;
+	top: -1%;
+	left: -13%;
+}
+.homeabout-shape4 img{
+    max-width: 103px;
+}
+.homeabout-shape5 {
+	position: absolute;
+	right: 0;
+	top: 0;
+    z-index: 99;
+}
+.homeabout-shape5 img{
+    max-width: 48px;
+}
+.helpline-content .about-box{
+    display: flex;
+    align-items: center;
+    padding: 15px 0px;
+}
+.about-box .number-text{
+    padding-left: 24px;
+}
+.about-box .number-text h3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 4px;
+}
+.about-box .number-text span{
+    line-height: 30px;
+}
+.about-quote {
+	background: rgba(110, 158, 250, 0.1);
+	border-radius: 2px;
+	padding: 14px 14px 10px 57px;
+    margin-top: 30px;
+    position: relative;
+    z-index: 9;
+}
+.about-quote::after {
+	content: url('assets/img/shap/quote-shap.png');
+	position: absolute;
+	bottom: 10%;
+	left: -16px;
+}
+.about-quote p{
+    font-style: italic;
+    font-weight: 700;
+    line-height: 24px;
+    position: relative;
+}
+.about-quote p::after {
+	content: "❝";
+	position: absolute;
+	left: -24px;
+	top: -5px;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 45px;
+	color: var(--body-color);
+}
+
 /*
  * #-Testimonial Area
 */
