@@ -766,6 +766,89 @@ p{
 .hero-image {
     margin-top: 10px;
 }
+.hero-slider-full .owl-nav  span.hero-nav {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    transition: all .3s ease;
+    border-radius: 50%;
+    font-size: 24px;
+}
+.hero-slider-full .owl-nav  span.hero-nav:hover{
+    background: var(--primary-color);
+    color: #fff;
+}
+.hero-slider-full .owl-nav button.owl-prev {
+    position: absolute;
+    top: 45%;
+    left: 20px;
+}
+.hero-slider-full .owl-nav button.owl-next {
+    position: absolute;
+    top: 45%;
+    right: 20px;
+}
+.active .hero-slider-item h2, .active .hero-slider-item a, .active .hero-slider-item p, .active .hero-slider-item h5{
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1.3s;
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-delay: 1.7s;
+  animation-delay: 1.6s;
+}
+.active .hero-slider-item h5{
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+.active .hero-slider-item p{
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+.active .hero-slider-item a {
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+.active .hero-slider-item .hero-image img{
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration:.5s;
+    animation-duration: 1s;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+     -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+.hero-slider-area .shap-img img {
+    position: absolute;
+    z-index: 9;
+    width: auto;
+}
+.hero-slider-area .shap-img img.shap1 {
+    left: 10%;
+    top: 35%;
+}
+.hero-slider-area .shap-img  img.shap4 {
+    left: 46%;
+    top: 10%;
+}
+.hero-slider-area .shap-img  img.shap3 {
+    right: 10%;
+    top: 7%;
+}
+.hero-slider-area .shap-img  img.shap6 {
+    right: 37%;
+    bottom: 15%;
+}
+.hero-slider-item .hero-caption{
+    overflow: hidden;
+}
 /*
  * #-Info Area
 */
