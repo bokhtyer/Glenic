@@ -1347,7 +1347,7 @@ span.slidenav:hover{
 .testimonial-top{
     position: absolute;
     width: 100%;
-    top: -6%;
+    top: -20px;
     display: flex;
     align-items: center;
 }
@@ -1392,6 +1392,11 @@ span.slidenav:hover{
     text-transform: capitalize;
     color: var(--primary-color)
 }
+.single-testimonial p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
 .all-testimonial.owl-carousel .owl-stage {
 	padding-bottom: 50px;
     padding-top: 50px;
@@ -1411,6 +1416,20 @@ span.slidenav:hover{
 }
 .all-testimonial.owl-carousel .owl-item.active.center .single-testimonial{
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
+}
+.single-testimonial.style2 p {
+    font-size: 24px;
+    line-height: 42px;
+}
+.single-testimonial.style2.mlr-85 {
+    margin-left: -85px;
+    margin-right: 85px;
+}
+.single-testimonial.style2 .testimonial-img img {
+    max-width: 105px;
+}
+.single-testimonial.style2 .testimonial-text {
+    padding-top: 20px;
 }
 /*
  * #-Button
@@ -2182,4 +2201,90 @@ span.slidenav:hover{
     line-height: 64px;
     color: #fff;
     text-transform: capitalize;
+}
+/*
+ * Team
+*/
+.team-card-item {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.team-card-item .thumb img{
+    width: 100%;
+}
+.team-card-item .content{
+    padding: 20px 25px;
+}
+.team-card-item .content h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 3px;
+}
+.team-card-item .content h4 a{
+    color: var(--headding-color);
+    font-family: 'DM Sans', sans-serif;
+}
+.team-card-item .content h4:hover a{
+    color: var(--primary-color);
+}
+.team-card-item .content p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: var(--primary-color);
+    margin-bottom: 12px;
+}
+.team-card-item .content .social span {
+    padding: 0px 20px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+.team-card-item .content .social span:first-child{
+    padding-left: 0px;
+}
+.team-card-item .content .social span a{
+    font-size: 18px;
+    color: rgba(66, 75, 92, 0.5);
+}
+.team-card-item .content .social span a:hover{
+    color: var(--primary-color);
+}
+.why-choose-or-client-section .image {
+    margin-top: -60px;
+}
+.why-choose-or-client-section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    overflow: hidden;
+    z-index: 9;
+}
+.why-choose-or-client-section .shap img {
+    position: absolute;
+}
+.why-choose-or-client-section .shap img.shap2 {
+    bottom: 10%;
+    left: 3%;
+}
+.why-choose-or-client-section .shap img.shap1 {
+    top: 2%;
+    left: 36%;
+}
+.why-choose-or-client-section h2.big-title {
+    font-weight: 500;
+    font-size: 400px;
+    line-height: 60px;
+    text-align: right;
+    color: #FFFFFF;
+    text-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    left: 38%;
+    top: 42%;
+    z-index: -9;
 }
