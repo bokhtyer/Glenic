@@ -966,7 +966,31 @@ p{
 	font-size: 24px;
 	line-height: 36px;
 	color: var(--headding-color);
-	padding: 15px 0px;
+    padding-bottom: 0px;
+    padding-top: 25px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.info-box p{
+    padding-top: 12px;
+}
+.info-box.info-box6 {
+	box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+	padding: 50px 65px 42px 65px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.info-box.info-box6 h3{
+}
+.info-box.info-box6:hover{
+    background-color: var(--primary-color);
+}
+.info-box.info-box6:hover h3{
+    color: #FFFFFF
+}
+.infobox-slider .owl-stage-outer{
+    padding-top: 10px;
 }
 .infobox-slider .owl-item img{
 	width: auto;
