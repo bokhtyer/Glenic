@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="953a05d4-e395-4b83-955f-965465ce6408" name="Changes" comment="Hero Section Footer Blog, CLinet Logo, Why Choose us">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index3.html" beforeDir="false" afterPath="$PROJECT_DIR$/index3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="953a05d4-e395-4b83-955f-965465ce6408" name="Changes" comment="Hero Section Footer Blog, CLinet Logo, Why Choose us" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,6 +113,7 @@
     <MESSAGE value="home page 2" />
     <MESSAGE value="Slider" />
     <MESSAGE value="Home Page 2 Slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home Page 2 Slider" />
+    <MESSAGE value="From" />
+    <option name="LAST_COMMIT_MESSAGE" value="From" />
   </component>
 </project>
