@@ -2122,3 +2122,30 @@ span.slidenav:hover{
     color: #fff;
     font-size: 18px;
 }
+/*
+ * #-Faq Area
+*/
+.faq-custom .accordion-item{
+    border: inherit;
+}
+.faq-custom .accordion-item .accordion-button {
+	background: inherit;
+	box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
+	border-radius: 4px;
+	margin-bottom: 10px;
+	font-family: 'Halyard Display';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 30px;
+	color: var(--headding-color);
+	padding: 10px 30px;
+}
+.faq-custom .accordion-item .accordion-body{
+    padding: 0px 30px;
+    padding-bottom: 13px;
+    color: var(--body-color)
+}
+
+
+
