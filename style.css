@@ -891,7 +891,7 @@ p{
     overflow: hidden;
 }
 .hero-slider-area.hero-slider-2{
-    margin-top: -100px;
+    margin-top: -99px;
 }
 .hero-slider-full2 .owl-nav  span.hero-nav {
     width: 90px;
@@ -1021,7 +1021,82 @@ p{
 	background: var(--primary-color);
 	border-color: var(--primary-color)
 }
-
+.info-box-5 {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.info-box-5 .icon {
+    position: relative;
+    z-index: 9;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    width: 90px;
+    height: 90px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.info-box-5 .icon img{
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.info-box-5 .icon img.hover-img {
+    display: none;
+}
+.info-box-5 .icon:after {
+    content: "";
+    clear: both;
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: rgba(110, 158, 250, 0.2);
+    bottom: 9px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    border-radius: 50%;
+    z-index: -9;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.info-box-5 .content h4 {
+    font-family: 'Halyard Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 8px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.info-box-5 .content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.info-box-5:hover{
+    background: var(--primary-color);
+}
+.info-box-5:hover .content h4 {
+    color: #fff;
+}
+.info-box-5:hover .content p {
+    color: #fff;
+}
+.info-box-5:hover img {
+    display: none;
+}
+.info-box-5:hover img.hover-img {
+    display: block;
+}
 /*
  * #-About Area
 */
@@ -2392,6 +2467,10 @@ span.slidenav:hover{
 }
 .why-choose-or-client-section .image {
     margin-top: -60px;
+}
+.why-choose-or-client-section .image.services-image-sec {
+    margin-top: -30px;
+    margin-left: -132px;
 }
 .why-choose-or-client-section {
     background-size: cover;
