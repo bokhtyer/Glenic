@@ -123,6 +123,38 @@
             }
         });
     }
+     /*---Testimonial---*/
+    var $BestServicesSlider = $('.our-best-services-slider');
+        if($BestServicesSlider.length > 0){
+        $('.our-best-services-slider').owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 8000,
+            items: 3,
+            margin:50,
+            dots:true,
+            responsiveClass:true,
+            responsive:{
+                    0:{
+                    items: 1,
+                    stagePadding: 0,
+                    margin: 0,
+                    center:false,
+                },
+                600:{
+                    items:2,
+                    center:false,
+                },
+                768:{
+                    items:2,
+                    center:false,
+                },
+                992:{
+                    items:3,
+                },
+            }
+        });
+    }
 
     // /*---slider activation---*/
     var $ClientLogoSlider = $('.client-logo-slider');
@@ -225,6 +257,12 @@
 	        }
 	    });
 	});
+
+    
+    // Video
+    $('.video-btn a.video-popup').magnificPopup({
+        type: 'iframe'
+    });
 
 
 	// var $portfolio = $('.p-projects-full');
