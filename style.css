@@ -2963,3 +2963,35 @@ span.slidenav:hover{
     padding-left: 60px;
     height: 100%;  
 }
+/* Team Progress */
+.progress-single{
+    padding-bottom: 20px;
+}
+.progress-single:last-child{
+    padding-bottom: 0px;
+}
+.progress-single h5{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+.progress-single .progress {
+	--bs-progress-bar-bg: #222222;
+	background: #F8F8F8;
+	--bs-progress-height: 5px;
+}
+.progress-single .progress-bar {
+    -webkit-animation: progress 1.5s ease-in-out forwards;
+    animation: progress 1.5s ease-in-out forwards;
+}
+@-webkit-keyframes progress {
+    0% {
+      width: 0;
+    }
+}
+@keyframes progress {
+    0% {
+        width: 0;
+    }
+}
