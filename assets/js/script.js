@@ -54,42 +54,7 @@
             smartSpeed: 1000,
         });
     }
-     /*---Testimonial---*/
-    // var $Testimonial3Slider = $('.testimonial-slider3-full');
-    //     if($Testimonial3Slider.length > 0){
-    //     $('.testimonial-slider3-full').owlCarousel({
-    //         autoplay: true,
-    //         loop: true,
-    //         nav: true,
-    //         autoplay: false,
-    //         autoplayTimeout: 8000,
-    //         items: 3,
-    //         margin:30,
-    //         dots:false,
-    //         center:true,
-    //         navText:['<span class="test-nav"><i class="bi bi-chevron-left"></i></span>','<span class="test-nav"><i class="bi bi-chevron-right"></i></span>'],
-    //         responsiveClass:true,
-    //         responsive:{
-    //                 0:{
-    //                 items: 1,
-    //                 stagePadding: 0,
-    //                 margin: 0,
-    //                 center:false,
-    //             },
-    //             600:{
-    //                 items:2,
-    //                 center:false,
-    //             },
-    //             768:{
-    //                 items:2,
-    //                 center:false,
-    //             },
-    //             992:{
-    //                 items:3,
-    //             },
-    //         }
-    //     });
-    // }
+     
 
      /*---Testimonial---*/
     var $InfoSlider = $('.infobox-slider');
@@ -263,21 +228,28 @@
     $('.video-btn a.video-popup').magnificPopup({
         type: 'iframe'
     });
+    // Portfolio Gallery
+    $('.gallery-item-single a').magnificPopup({
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
 
 
-	// var $portfolio = $('.p-projects-full');
-	//     if($portfolio.length > 0){
-	//         var mixer = mixitup('.p-projects-full');
-	//       	var mixer = mixitup('.portF');
-	//       	var mixer = mixitup('.portF', {
-	//         selectors: {
-	//           target: '.blog-item'
-	//         },
-	//         animation: {
-	//           duration: 100
-	//         }
-	//     });
-	// }
+	var $portfolio = $('.p-projects-full');
+        if($portfolio.length > 0){
+            var mixer = mixitup('.p-projects-full');
+            var mixer = mixitup('.portF');
+            var mixer = mixitup('.portF', {
+            selectors: {
+              target: '.blog-item'
+            },
+            animation: {
+              duration: 100
+            }
+        });
+    }
 
 
 	// Counter

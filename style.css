@@ -3094,23 +3094,27 @@ span.slidenav:hover{
     padding: 4px 0px;
 }
 /* Contact Form */
-.contact-form{
+.contact-form {
     padding: 50px;
     background: #FFFFFF;
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
+    position: relative;
+    z-index: 999;
 }
 .contact-form .get-appointment-form .single-field label{
     color: var(--headding-color);
 }
 .contact-form .get-appointment-form .single-field input{
     border-color: rgba(34, 34, 34, 0.1);
+    color: var(--body-color);
 }
 .contact-form .get-appointment-form .single-field input:focus{
     border-color: var(--primary-color)
 }
 .contact-form .get-appointment-form .single-field textarea{
     border-color: rgba(34, 34, 34, 0.1);
+    color: var(--body-color);
 }
 .contact-form .get-appointment-form .single-field textarea:focus{
     border-color: var(--primary-color)
@@ -3494,6 +3498,182 @@ span.slidenav:hover{
 /*
  * Contact Map
 */
-#contact-map {
-    height: 820px;
+.contact-area-section {
+    position: relative;
+    padding: 100px 0px;
+}
+.info-box7 p {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.map-contact-form {
+    max-width: 580px;
+    margin: 0 auto;
+    z-index: 999;
+    top: 100px;
+}
+.contact-form.contact-page {
+    margin-bottom: -245px;
+    position: relative;
+    z-index: 999;
+}
+.contact-area-section .contact_map iframe {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    top: 0;
+    min-height: 730px;
+    height: 100%;
+    width: 100%;
+    margin-bottom: -7px;
+}
+.contact-area-section .contact_map  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.contact-page-map-section .contact_map iframe {
+    min-height: 730px;
+    width: 100%;
+    margin-bottom: -7px;
+}
+/*
+ * Gallery Image
+*/
+.gallery-item-single {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+.gallery-item-single img{
+    width: 100%;
+}
+.gallery-item-single .overly-icon {
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(110, 158, 250, 0.2);
+    border-radius: 10px;
+    transform: scale(.3);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-item-single:hover .overly-icon {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+}
+.gallery-item-single .overly-icon a {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--primary-color);
+    border-radius: 50%;
+    text-align: center;
+}
+.gallery-item-single .overly-icon a img{
+    width: 24px;
+}
+/*
+ * Pagination
+*/
+.glenic-pagination ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.glenic-pagination ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.glenic-pagination ul li:last-child {
+    margin-right: 0px;
+}
+.glenic-pagination ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: var(--section-bg);
+    border-radius: 50%;
+    transition: all .3s ease;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    -webkit-transition: all .3s ease;
+    color: var(--body-color);
+}
+.glenic-pagination ul li a:hover {
+    color: #fff;
+    background: var(--primary-color);
+}
+.glenic-pagination ul li a i {
+    font-size: 20px;
+    line-height: 1;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+.glenic-pagination ul li a:hover i {
+    transform: scale(1.3);
+}
+.glenic-pagination ul li span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    transition: all .3s ease;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    -webkit-transition: all .3s ease;
+    color: #fff;
+}
+/*
+ * Mix it Up
+*/
+.portfolio-cate-list-full ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.portfolio-cate-list-full ul li {
+    display: inline-block;
+    margin: 0px 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: var(--body-color);
+    border: 1px solid rgba(34, 34, 34, 0.1);
+    border-radius: 32px;
+    padding: 4px 20px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+.portfolio-cate-list-full ul li.mixitup-control-active{
+    color: #fff;
+    background: var(--primary-color);
+    border-color: var(--primary-color);
 }
