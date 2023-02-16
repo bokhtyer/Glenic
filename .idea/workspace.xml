@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="953a05d4-e395-4b83-955f-965465ce6408" name="Changes" comment="home 2" />
+    <list default="true" id="953a05d4-e395-4b83-955f-965465ce6408" name="Changes" comment="Blog Details 80%">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +62,9 @@
       <workItem from="1676004951950" duration="48000" />
       <workItem from="1676088263983" duration="356000" />
       <workItem from="1676387357875" duration="381000" />
+      <workItem from="1676392568116" duration="47000" />
+      <workItem from="1676428422018" duration="12000" />
+      <workItem from="1676564566821" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="Hero Section Footer Blog, CLinet Logo, Why Choose us">
       <created>1675970703154</created>
@@ -93,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676094677856</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Blog Details 80%">
+      <created>1676392602396</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676392602396</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +131,7 @@
     <MESSAGE value="Slider" />
     <MESSAGE value="Home Page 2 Slider" />
     <MESSAGE value="From" />
-    <option name="LAST_COMMIT_MESSAGE" value="From" />
+    <MESSAGE value="Blog Details 80%" />
+    <option name="LAST_COMMIT_MESSAGE" value="Blog Details 80%" />
   </component>
 </project>

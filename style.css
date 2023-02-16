@@ -2358,6 +2358,9 @@ span.slidenav:hover{
 .get-appointment-area .single-field textarea:focus{
     border-color: var(--primary-color);
 }
+.get-appointment-area.style-2 .single-field textarea {
+    background: transparent;
+}
 .get-appointment-form.style-2 .single-field label {
     color: var(--headding-color);
 }
@@ -2736,6 +2739,8 @@ span.slidenav:hover{
     border-color: #FFFFFF;
     border-style: solid;
     width: 100%;
+    -webkit-transition:all .3s ease;
+    transition: all .3s ease;
 }
 .widget-search input:focus{
     border-color: var(--primary-color)
@@ -2797,6 +2802,54 @@ span.slidenav:hover{
 .socialicon-widget ul li a:hover{
     background: var(--primary-color);
     color: #FFFFFF
+}
+/*
+ * Blog Widgets
+*/
+.sidebar-blog-widgets .single-item {
+    margin-bottom: 25px;
+    position: relative;
+}
+.sidebar-blog-widgets .single-item:last-child{
+    margin-bottom: 0px;
+}
+.sidebar-blog-widgets .single-item .thumb {
+    width: 70px;
+    float: left;
+    margin-right: 20px;
+}
+.sidebar-blog-widgets .single-item .thumb img{
+    width: 70px;
+    border-radius: 10px;
+}
+.sidebar-blog-widgets .single-item .content {
+    overflow: hidden;
+}
+.sidebar-blog-widgets .single-item .content span{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+.sidebar-blog-widgets .single-item .content span a{
+    text-transform: capitalize;
+    color: var(--primary-color);
+}
+.sidebar-blog-widgets .single-item .content h4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.sidebar-blog-widgets .single-item .content h4 a{
+    color: var(--headding-color);
+    font-family: 'Halyard Display';
+    text-transform: capitalize;
+}
+.sidebar-blog-widgets .single-item:hover .content h4 a{
+    color: var(--primary-color);
 }
 /* Widget Appointment */
 .widget-appointment{
@@ -3151,4 +3204,169 @@ span.slidenav:hover{
     font-size: 18px;
     line-height: 28px;
     color: rgba(255, 255, 255, 0.6);
+}
+/*
+ * Comment Form
+*/
+.comment-section-full {
+    background: var(--section-bg);
+    padding: 50px 60px;
+}
+.comment-section-full .cooment-s-header h2.title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+}
+.comment-section-full .cooment-s-header p.p-content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+.comment-section-full ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.comment-section-full ul li.single-comment {
+    position: relative;
+}
+.comment-section-full ul li.single-comment ul.comment-reply {
+    padding-top: 30px;
+    margin-top: 20px;
+    border-top: 1px solid rgba(34, 34, 34, 0.1);
+    padding-left: 50px;
+}
+.comment-section-full ul li.single-comment  .thum {
+    width: 100px;
+    float: left;
+}
+.comment-section-full ul li.single-comment  .thum  img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.comment-section-full ul li.single-comment .content {
+    overflow: hidden;
+}
+.comment-section-full ul li.single-comment .content h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.comment-section-full ul li.single-comment .content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+.comment-form-full .single-field{
+    padding-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+}
+.comment-form-full .single-field label {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--headding-color);
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline-block;
+    font-family: 'Halyard Display';
+}
+.comment-form-full .single-field .nice-select {
+    height: 50px;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    background: transparent;
+    padding: 16px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    border: 2px solid rgba(34, 34, 34, 0.1);
+    color: var(--body-color);
+    -webkit-transition:all .3s ease;
+    transition: all .3s ease;
+}
+.comment-form-full .single-field .nice-select:focus{
+    border-color: var(--primary-color);
+}
+.comment-form-full .single-field .nice-select ul.list {
+    width: 100%;
+    color: var(--body-color);
+}
+.comment-form-full .single-field .nice-select ul.list li.option {
+    font-size: 14px;
+    border-bottom: 1px solid #dddddd5c;
+}
+.comment-form-full .single-field .nice-select ul.list li.option:last-child{
+    border-bottom: none;
+}
+.comment-form-full .single-field input {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background: transparent;
+    padding: 0px 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    border: 2px solid rgba(34, 34, 34, 0.1);
+    color: var(--body-color);
+    -webkit-transition:all .3s ease;
+    transition: all .3s ease;
+}
+.comment-form-full .single-field input:focus{
+    border-color: var(--primary-color);
+}
+.comment-form-full .single-field button.button-1 {
+    width: auto;
+    height: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background: var(--primary-color);
+    border: none;
+    color: #fff;
+}
+.comment-form-full .single-field button.button-1 i {
+    width: 46px;
+    height: 46px;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 99;
+    position: relative;
+    color: #fff;
+    font-size: 18px;
+}
+.comment-form-full .single-field textarea {
+    border: 2px solid rgba(34, 34, 34, 0.1);
+    border-radius: 5px;
+    height: 100px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--body-color);
+    padding: 16px;
+    width: 100%;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    background: transparent;
+}
+.comment-form-full .single-field textarea:focus{
+    border-color: var(--primary-color);
+}
+/*
+ * Contact Map
+*/
+#contact-map {
+    height: 820px;
 }
