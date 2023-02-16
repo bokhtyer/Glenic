@@ -2316,6 +2316,23 @@ span.slidenav:hover{
 .get-appointment-form .single-field input:focus{
     border-color: var(--primary-color);
 }
+.get-appointment-form .single-field textarea {
+	width: 100%;
+	height: 80px;
+	border: 2px solid rgba(255, 255, 255, 0.1);
+	border-radius: 5px;
+	background: transparent;
+	padding: 15px 16px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(255, 255, 255, 0.6);
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.get-appointment-form .single-field textarea:focus{
+    border-color: var(--primary-color);
+}
 .get-appointment-form .single-field button.button-1 {
     width: 100%;
     height: 50px;
@@ -2995,3 +3012,80 @@ span.slidenav:hover{
         width: 0;
     }
 }
+/*
+ * #-Contact Page
+*/
+.info-box7{
+    text-align: center;
+    padding: 15px;
+}
+.info-box7 .info7-img {
+	height: 70px;
+	width: 70px;
+	background: rgba(110, 158, 250, 0.1);
+	border-radius: 50%;
+	margin: auto;
+	line-height: 70px;
+}
+.info-box7 span{
+    display: block;
+    font-size: 16px;
+    line-height: 21px;
+    padding-top: 15px;
+    color: var(--primary-color)
+}
+.info-box7 h3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 4px 0px;
+}
+/* Contact Form */
+.contact-form{
+    padding: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+.contact-form .get-appointment-form .single-field label{
+    color: var(--headding-color);
+}
+.contact-form .get-appointment-form .single-field input{
+    border-color: rgba(34, 34, 34, 0.1);
+}
+.contact-form .get-appointment-form .single-field input:focus{
+    border-color: var(--primary-color)
+}
+.contact-form .get-appointment-form .single-field textarea{
+    border-color: rgba(34, 34, 34, 0.1);
+}
+.contact-form .get-appointment-form .single-field textarea:focus{
+    border-color: var(--primary-color)
+}
+.contact-form .get-appointment-form .single-field button.button-1 i{
+    background: rgba(255, 255, 255, 0.1);
+}
+.contact-form .button-1::after{
+    background: #222222;
+}
+.contact-form .button-1 i{
+    margin-left: 0px;
+}
+/*
+ * #-Appointment Page
+*/
+.appointment-contactdet{
+    background: var(--primary-color);
+    padding: 40px 100px;
+    border-radius: 10px;
+}
+.appointment-contactdet .teamdetails-left .number-icon{
+    background: rgba(255, 255, 255, 0.1);
+}
+.appointment-contactdet .helpline-number .number-text span{
+    color: rgba(255, 255, 255, 0.6);
+}
+.appointment-contactdet .helpline-number .number-text a {
+	color: #FFFFFF;
+}
+
