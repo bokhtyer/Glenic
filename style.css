@@ -966,11 +966,17 @@ p{
 	font-weight: 400;
 	font-size: 24px;
 	line-height: 36px;
-	color: var(--headding-color);
     padding-bottom: 0px;
     padding-top: 25px;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
+}
+.info-box h3 a {
+    color: var(--headding-color);
+    font-family: 'Halyard Display';
+}
+.info-box h3:hover a{
+    color: var(--primary-color);
 }
 .info-box p{
     padding-top: 12px;
@@ -993,17 +999,22 @@ p{
 .infobox-slider .owl-stage-outer{
     padding-top: 10px;
 }
-.infobox-slider .owl-item img{
+.owl-item img{
 	width: auto;
 	margin: auto;
 }
-.infobox-slider .owl-item img.hover-img{
+.info-box img.hover-img{
 	display: none;
 }
-.infobox-slider .info-box:hover .default-img{
+.info-box:hover .default-img{
 	display: none;
 }
-.infobox-slider .info-box:hover .hover-img{
+.info-box .info-image img {
+    width: auto;
+    -webkit-transition:all .3s ease;
+    transition: all .3s ease;
+}
+.info-box:hover .hover-img{
 	display: inline-block;
 }
 .infobox-slider.owl-carousel .owl-stage{
@@ -2325,6 +2336,12 @@ span.slidenav:hover{
     -webkit-transition:all .3s ease;
     transition: all .3s ease;
 }
+.get-appointment-form .single-field input::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+.get-appointment-form .single-field input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
 .get-appointment-form .single-field input:focus{
     border-color: var(--primary-color);
 }
@@ -2341,6 +2358,12 @@ span.slidenav:hover{
 	color: rgba(255, 255, 255, 0.6);
 	-webkit-transition: all .3s ease;
 	transition: all .3s ease;
+}
+.get-appointment-form .single-field textarea::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+.get-appointment-form .single-field textarea::placeholder {
+    color: rgba(255, 255, 255, 0.6);
 }
 .get-appointment-form .single-field textarea:focus{
     border-color: var(--primary-color);
@@ -3761,4 +3784,23 @@ a.video-btn {
     text-align: center;
     text-transform: capitalize;
     color: #fff;
+}
+.about-content.pr-60 {
+    padding-left: 0px;
+    padding-right: 60px;
+}
+.helpline-image.home-page-3a .homeabout-shape3 {
+    left: 0;
+    bottom: 0;
+}
+.helpline-image.home-page-3a .homeabout-shape3 {
+    left: -28px;
+    bottom: -28px;
+}
+.about-content.pr-60 {
+    padding-left: 0;
+    padding-right: 60px;
+}
+.about-content.pr-60 .homeabout-shape2 {
+    left: -56px;
 }
