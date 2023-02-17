@@ -225,7 +225,7 @@
 
     
     // Video
-    $('.video-btn a.video-popup').magnificPopup({
+    $('.video-btn a.video-popup, .video-btn').magnificPopup({
         type: 'iframe'
     });
     // Portfolio Gallery
