@@ -172,6 +172,39 @@
         });
     }
 
+    // Project Related 
+    var $ProjectRelated = $('.project-related');
+        if($ProjectRelated.length > 0){
+        $('.project-related').owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 8000,
+            items: 2,
+            margin:30,
+            dots:true,
+            responsiveClass:true,
+            responsive:{
+                    0:{
+                    items: 1,
+                    stagePadding: 0,
+                    margin: 0,
+                    center:false,
+                },
+                600:{
+                    items:2,
+                    center:false,
+                },
+                768:{
+                    items:2,
+                    center:false,
+                },
+                992:{
+                    items:2,
+                },
+            }
+        });
+    }
+
     // Testimonial Slider
     var $TestimonialSlide = $('.all-testimonial');
         if($TestimonialSlide.length > 0){

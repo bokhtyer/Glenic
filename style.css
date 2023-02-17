@@ -988,12 +988,13 @@ p{
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
 }
-.info-box.info-box6 h3{
+.info-box.info-box6 h3 a{
+    transition: inherit;
 }
 .info-box.info-box6:hover{
     background-color: var(--primary-color);
 }
-.info-box.info-box6:hover h3{
+.info-box.info-box6:hover h3 a{
     color: #FFFFFF
 }
 .infobox-slider .owl-stage-outer{
@@ -3807,4 +3808,58 @@ a.video-btn {
 }
 .about-content.pr-60 .homeabout-shape2 {
     left: -56px;
+}
+/*
+ * Project Details Page
+*/
+.singlepage-titletext.projectdetails-titletext{
+    padding-left: 0px;
+}
+.projectdetails-infosinle{
+    padding: 11px 0px;
+}
+.projectdetails-infotop{
+    display: flex;
+    align-items: center;
+    padding-bottom: 7px;
+}
+.projectdetails-infotop h5{
+    padding-left: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+/* Related Slider */
+.projectdetails-related .section-title{
+    padding-bottom: 30px;
+} 
+.projectdetails-related .section-title h3{
+    padding-bottom: 0px;
+    font-weight: 400;
+}
+.projectdetails-related .section-title h2{
+    line-height: 50px;
+}
+.projectdetails-related .project-content h3{
+    padding-bottom: 0px;
+}
+.projectdetails-related .project-content p{
+    margin-bottom: 0px;
+    line-height: 20px;
+}
+.projectdetails-related .owl-carousel .owl-stage{
+    padding-bottom: 55px;
+}
+.projectdetails-related .owl-theme .owl-dots .owl-dot span{
+    background: rgba(66, 75, 92, 0.1);
+    border-width: 1px;
+    border-color: rgba(66, 75, 92, 0.1);
+    border-style: solid;
+}
+.projectdetails-related .owl-theme .owl-dots .owl-dot:hover span{
+    border-color: var(--primary-color)
+}
+.projectdetails-related .owl-theme .owl-dots .owl-dot.active span{
+    background: var(--primary-color);
+    border-color: var(--primary-color)
 }
