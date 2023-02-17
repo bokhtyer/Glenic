@@ -2336,10 +2336,10 @@ span.slidenav:hover{
     -webkit-transition:all .3s ease;
     transition: all .3s ease;
 }
-.get-appointment-form .single-field input::-moz-placeholder {
+.sidebar-single-widget .get-appointment-form .single-field input::-moz-placeholder {
     color: rgba(255, 255, 255, 0.6);
 }
-.get-appointment-form .single-field input::placeholder {
+.sidebar-single-widget .get-appointment-form .single-field input::placeholder {
     color: rgba(255, 255, 255, 0.6);
 }
 .get-appointment-form .single-field input:focus{
@@ -2359,10 +2359,10 @@ span.slidenav:hover{
 	-webkit-transition: all .3s ease;
 	transition: all .3s ease;
 }
-.get-appointment-form .single-field textarea::-moz-placeholder {
+.sidebar-single-widget .get-appointment-form .single-field textarea::-moz-placeholder {
     color: rgba(255, 255, 255, 0.6);
 }
-.get-appointment-form .single-field textarea::placeholder {
+.sidebar-single-widget .get-appointment-form .single-field textarea::placeholder {
     color: rgba(255, 255, 255, 0.6);
 }
 .get-appointment-form .single-field textarea:focus{
@@ -3166,10 +3166,13 @@ span.slidenav:hover{
 /*
  * #-Appointment Page
 */
-.appointment-contactdet{
+.appointment-contactdet {
+    z-index: 9;
     background: var(--primary-color);
     padding: 40px 100px;
     border-radius: 10px;
+    margin-bottom: -80px;
+    position: relative;
 }
 .appointment-contactdet .teamdetails-left .number-icon{
     background: rgba(255, 255, 255, 0.1);
@@ -3180,7 +3183,9 @@ span.slidenav:hover{
 .appointment-contactdet .helpline-number .number-text a {
 	color: #FFFFFF;
 }
-
+.get-appointment-area.appointment-page-mt {
+    padding-top: 170px;
+}
 
 /*
  * Blog Details
@@ -3540,12 +3545,6 @@ span.slidenav:hover{
 .info-box7 p {
     max-width: 300px;
     margin: 0 auto;
-}
-.map-contact-form {
-    max-width: 580px;
-    margin: 0 auto;
-    z-index: 999;
-    top: 100px;
 }
 .contact-form.contact-page {
     margin-bottom: -245px;
