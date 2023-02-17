@@ -1528,6 +1528,11 @@ span.slidenav:hover{
 .all-testimonial.owl-carousel .owl-item.active.center .single-testimonial{
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
 }
+.single-testimonial.shadow-style {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
 /* About Shape */
 .helpline-image img.homeabout-main{
     position: relative;
