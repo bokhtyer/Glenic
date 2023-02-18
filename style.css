@@ -3181,7 +3181,7 @@ span.slidenav:hover{
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
     position: relative;
-    z-index: 999;
+    z-index: 99;
 }
 .contact-form .get-appointment-form .single-field label{
     color: var(--headding-color);
@@ -4266,7 +4266,7 @@ a.video-btn {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 99;
+    z-index: 999;
     -webkit-animation: sticky 1s;
     -moz-animation: sticky 1s;
     -o-animation: sticky 1s;

@@ -4,19 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="953a05d4-e395-4b83-955f-965465ce6408" name="Changes" comment="From" />
+    <list default="true" id="953a05d4-e395-4b83-955f-965465ce6408" name="Changes" comment="From">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_11_2023_4_36_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2_11_2023_4_36_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-right-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-right-sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index3.html" beforeDir="false" afterPath="$PROJECT_DIR$/index3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/porject.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/service-single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/team-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testimonial.html" beforeDir="false" afterPath="$PROJECT_DIR$/testimonial.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="reju" />
+    <option name="BRANCH" value="main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="reju" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,6 +79,7 @@
       <workItem from="1676428422018" duration="12000" />
       <workItem from="1676564566821" duration="41000" />
       <workItem from="1676692510501" duration="93000" />
+      <workItem from="1676718311653" duration="57000" />
     </task>
     <task id="LOCAL-00001" summary="Hero Section Footer Blog, CLinet Logo, Why Choose us">
       <created>1675970703154</created>
