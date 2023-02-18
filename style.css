@@ -4266,7 +4266,7 @@ a.video-btn {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 99;
+    z-index: 999;
     -webkit-animation: sticky 1s;
     -moz-animation: sticky 1s;
     -o-animation: sticky 1s;
