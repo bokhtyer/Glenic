@@ -3595,7 +3595,7 @@ span.slidenav:hover{
 .contact-form.contact-page {
     margin-bottom: -245px;
     position: relative;
-    z-index: 999;
+    z-index: 99;
 }
 .contact-area-section .contact_map iframe {
     position: absolute;
