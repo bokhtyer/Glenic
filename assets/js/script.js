@@ -7,8 +7,7 @@
 	new WOW().init();
 	// Nice Select
 	$('select').niceSelect();
-
-
+    
 	$(".header-search-icon").click(function () {
       	if ($('.header-top-search-form').hasClass("active")) {
         	$(".header-top-search-form, .header-search-icon").removeClass("active");
@@ -257,8 +256,6 @@
 	        }
 	    });
 	});
-
-    
     // Video
     $('.video-btn a.video-popup, .video-btn').magnificPopup({
         type: 'iframe'
@@ -270,8 +267,6 @@
             enabled: true
         }
     });
-
-
 	var $portfolio = $('.p-projects-full');
         if($portfolio.length > 0){
             var mixer = mixitup('.p-projects-full');

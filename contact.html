@@ -372,6 +372,7 @@
 							<h2>Have Questions? <br> Get in Touch!</h2>
 						</div>
 		                <div class="get-appointment-form">
+		                	<form id="contact-form" action="mail.php" method="POST">
 		                    <div class="row">
 		                        <div class="col-sm-6">
 		                            <div class="single-field">
@@ -383,6 +384,12 @@
 		                            <div class="single-field">
 		                                <label for="phone">Phone Number</label>
 										<input type="text" placeholder="+66 555 666 888 22" name="phone" id="phone" >
+									</div>
+		                        </div>
+		                        <div class="col-sm-12">
+		                            <div class="single-field">
+		                                <label for="email">Email</label>
+										<input type="email" placeholder="example@gmail.com" name="email" id="email" >
 									</div>
 		                        </div>
 		                        <div class="col-sm-12">
@@ -399,7 +406,8 @@
 		                            </div>
 		                        </div>
 		                    </div>
-		                    
+                        	<p class="ajax-response"></p>
+		                    </form>
 		                </div>
 		                
 		            </div>
