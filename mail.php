@@ -19,7 +19,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "abidtpi141@gmail.com";
+        $recipient = "info@example.com";
 
         // Set the email subject.
         $subject = "Glenic Contact $name";
