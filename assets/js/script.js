@@ -1,6 +1,8 @@
 (function($){
 	'use script';
-
+    $(window).on('load', function(event) {
+        $('#preloader').delay(500).fadeOut(500);
+    });
 	// WOW JS
 	new WOW().init();
 	// Nice Select
@@ -283,29 +285,16 @@
             }
         });
     }
-
-
-	// Counter
-    // var $CounterUp = $('.counter');
-    // if($CounterUp.length > 0){
-	// 	$('.counter').counterUp({
-	//         delay: 10,
-	//         time: 2000
-	//     });
-	// }
-
-
-
 	// Sticky Menu
-	// $(document).ready(function(){
-	// 	$(window).on('scroll',function(){
-	// 		var scroll = $(window).scrollTop();
-	// 		if(scroll < 150){
-	// 			$('.sticky-header').removeClass('sticky');
-	// 		}else{
-	// 			$('.sticky-header').addClass('sticky');
-	// 		}
-	// 	});
-	// });
+	$(document).ready(function(){
+		$(window).on('scroll',function(){
+			var scroll = $(window).scrollTop();
+			if(scroll < 150){
+				$('.sticky-header').removeClass('sticky');
+			}else{
+				$('.sticky-header').addClass('sticky');
+			}
+		});
+	});
 
 }(jQuery));

@@ -8,7 +8,7 @@
 	<link rel="icon" href="assets/img/fav.png" type="image/gif" sizes="16x16">
 	<link rel="icon" href="assets/img/fav.png" type="image/gif" sizes="18x18">
 	<link rel="icon" href="assets/img/fav.png" type="image/gif" sizes="20x20">
-
+	<!-- Css File -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/bootstrap-icons.css">
 	<link rel="stylesheet" href="assets/css/fontawesome.all.min.css">
@@ -22,7 +22,13 @@
 	<link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
-	
+	<!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
 	<!-- Start Header Area -->
 	<header class="header">
 		<!-- Header Top -->
@@ -55,18 +61,19 @@
 			</div>
 		</div>
 		<!-- Header Bottom -->
-		<div class="header-bottom">
+		<div class="header-bottom sticky-header">
 			<div class="container">
 				<div class="row">
 					<!-- Logo -->
-					<div class="col-lg-3 align-self-center">
+					<div class="col-lg-3 col-sm-4 col-5 align-self-center">
 						<div class="logo">
 							<a href="index.html">
 								<img src="assets/img/logo.png" alt="Logo">
 							</a>
 						</div>
 					</div>
-					<div class="col-lg-9 align-self-center">
+					<div class="col-lg-9 col-sm-8 col-7 align-self-center">
+						
 						<!-- Menu -->
 						<div class="menu">
 							<nav>
@@ -82,64 +89,38 @@
 									<li class="menu-item-has-children">
 										<a href="#">Pages</a>
 										<ul>
+											<li><a href="about.html">About Us</a></li>
 											<li class="menu-item-has-children">
-												<a href="#">Team</a>
+												<a href="team.html">Team</a>
 												<ul>
-													<li><a href="team.html">Team Styel 1</a></li>
-													<li><a href="team-2.html">Team Styel 2</a></li>
+													<li><a href="team.html">Team</a></li>
+													<li><a href="team-details.html">Team Details</a></li>
 												</ul>
 											</li>
-											<li><a href="pricing.html">Pricing Plane</a></li>
-											<li class="menu-item-has-children">
-												<a href="#">Services</a>
-												<ul>
-													<li><a href="services.html">Services</a></li>
-													<li><a href="services-details.html">Services Details</a></li>
-												</ul>
-											</li>
-											<li class="menu-item-has-children">
-												<a href="portfolio.html">Portfolio</a>
-												<ul>
-													<li><a href="portfolio.html">Portfolio</a></li>
-													<li><a href="porfolio-details.html">Portfolio Details</a></li>
-												</ul>
-											</li>
-											<li class="menu-item-has-children">
-												<a href="#">User</a>
-												<ul>
-													<li><a href="login.html">Login</a></li>
-													<li><a href="register.html">Register</a></li>
-													<li><a href="forget-password.html">Forget Password</a></li>
-												</ul>
-											</li>
+											<li><a href="appoinment.html">Appoinment</a></li>
+											<li><a href="gallery.html">Gallery</a></li>
+											<li><a href="testimonial.html">Testimonial</a></li>
 											<li><a href="faq.html">Faq</a></li>
-											<li><a href="404.html">404 Error</a></li>
 										</ul>
 									</li>
 									<li class="menu-item-has-children">
-										<a href="#">Services</a>
+										<a href="service.html">Services</a>
 										<ul>
-											<li><a href="services-details.html">It Service</a></li>
-											<li><a href="services-details.html">Business Solution</a></li>
-											<li><a href="services-details.html">Cloud Services</a></li>
-											<li><a href="services-details.html">Digital Solutions</a></li>
+											<li><a href="service.html">Service</a></li>
+											<li><a href="service-single.html">Service Details</a></li>
 										</ul>
 									</li>
 									<li class="menu-item-has-children">
-										<a href="#">Projects</a>
+										<a href="project.html">Projects</a>
 										<ul>
-											<li><a href="services-details.html">It Service</a></li>
-											<li><a href="services-details.html">Business Solution</a></li>
-											<li><a href="services-details.html">Cloud Services</a></li>
-											<li><a href="services-details.html">Digital Solutions</a></li>
+											<li><a href="project.html">Projects</a></li>
+											<li><a href="project-details.html">Projects Details</a></li>
 										</ul>
 									</li>
 									<li class="menu-item-has-children">
-										<a href="#">Blog</a>
+										<a href="blog.html">Blog</a>
 										<ul>
 											<li><a href="blog.html">Blog</a></li>
-											<li><a href="blog-grid.html">Blog Grid</a></li>
-											<li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
 											<li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
 											<li><a href="single.html">Blog Details</a></li>
 										</ul>
@@ -183,12 +164,96 @@
 								<img src="assets/img/dot.png" alt="btn">
 							</div>
 						</div>
+						<!-- Menu OPen -->
+						<div class="canvas_open_full">
+							<div class="canvas_open">
+						        <a href="javascript:void(0)">
+						        	<i class="bi bi-list"></i>
+						        </a>
+						    </div>
+					    </div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
 	<!-- End Header Area -->
+	<!-- Start Mobile Menu Area -->
+	<div class="mobile-menu-area">
+		
+		<!--offcanvas menu area start-->
+	    <div class="off_canvars_overlay">
+	                
+	    </div>
+	    <div class="offcanvas_menu">
+	        <div class="offcanvas_menu_wrapper">
+	            <div class="canvas_close">
+	                <a href="javascript:void(0)"><i class="bi bi-x-lg"></i></a>  
+	            </div>
+	            <div class="mobile-logo">
+	            	<a href="index.html">
+	            		<img src="assets/img/logo.png" alt="logo">
+	            	</a>
+	            </div>
+	            <div id="menu" class="text-left ">
+	                <ul class="offcanvas_main_menu">
+	                    <li class="menu-item-has-children active">
+	                        <a href="#">Home</a>
+	                        <ul class="sub-menu">
+	                            <li><a href="index.html">Home 1</a></li>
+								<li><a href="index2.html">Home 2</a></li>
+								<li><a href="index3.html">Home 3</a></li>
+	                        </ul>
+	                    </li>
+	                    <li class="menu-item-has-children">
+	                        <a href="#">Page</a>
+	                        <ul class="sub-menu">
+	                        	<li><a href="about.html">About Us</a></li>
+								<li class="menu-item-has-children">
+									<a href="team.html">Team</a>
+									<ul class="sub-menu">
+										<li><a href="team.html">Team</a></li>
+										<li><a href="team-details.html">Team Details</a></li>
+									</ul>
+								</li>
+								<li><a href="appoinment.html">Appoinment</a></li>
+								<li><a href="gallery.html">Gallery</a></li>
+								<li><a href="testimonial.html">Testimonial</a></li>
+								<li><a href="faq.html">Faq</a></li>
+	                        </ul>
+	                    </li>
+	                    <li class="menu-item-has-children">
+	                    	<a href="#">Services</a>
+							<ul class="sub-menu">
+								<li><a href="service.html">Service</a></li>
+								<li><a href="service-single.html">Service Details</a></li>
+							</ul>
+	                    </li>
+	                    <li class="menu-item-has-children">
+							<a href="#">Projects</a>
+							<ul class="sub-menu">
+								<li><a href="project.html">Projects</a></li>
+								<li><a href="project-details.html">Projects Details</a></li>
+							</ul>
+	                    </li>
+	                    <li class="menu-item-has-children">
+	                        <a href="#">Blog</a>
+	                        <ul class="sub-menu">
+	                        	<li><a href="blog.html">Blog</a></li>
+								<li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+								<li><a href="single.html">Blog Details</a></li>
+	                        </ul>
+	                    </li>
+	                    <li class="menu-item-has-children">
+	                        <a href="contact.html"> Contact Us</a> 
+	                    </li>
+	                </ul>
+	            </div>
+	        </div>
+	    </div>
+    </div>
+    <!--offcanvas menu area end-->
+	<!-- End Mobile Menu Area -->
 	<!-- Start Header Sidebar About Area -->
 	<div class="off_canvars_overlay"></div>
 	<div class="about-sidebar-section">
@@ -204,7 +269,7 @@
 			<div class="content">
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem asperiores, voluptates quia tempore iusto corrupti consectetur magni vitae sunt explicabo recusandae nesciunt fugiat soluta non unde a deserunt esse ut.</p>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eveniet facere quae a, doloremque! Placeat explicabo vel enim?</p>
-				<a class="button-1" href="#">Contact Now <i class="fa-solid fa-arrow-right"></i></a>
+				<a class="button-1" href="contact.html">Contact Now <i class="fa-solid fa-arrow-right"></i></a>
 				<div class="info">
 					<div class="info-single">
 						<div class="icon">
@@ -221,7 +286,7 @@
 						</div>
 						<div class="content">
 							<h4>Email</h4>
-							<a href="mailto:example1234@gmail.com">example1234@gmail.com</a>
+							<a href="#">example1234@gmail.com</a>
 						</div>
 					</div>
 					<div class="info-single">
@@ -230,7 +295,7 @@
 						</div>
 						<div class="content">
 							<h4>Phone</h4>
-							<a href="tel:+91 235 548 7548">+91 235 548 7548</a>
+							<a href="#">+91 235 548 7548</a>
 						</div>
 					</div>
 				</div>
@@ -485,7 +550,7 @@
 				<!-- Footer Widgets Section -->
 				<div class="row">
 					<!-- Single Widgets -->
-					<div class="col-lg-4">
+					<div class="col-lg-4 col-md-6">
 						<div class="footer-widegts-single">
 							<div class="f-logo mb-15">
 								<a href="index.html">
@@ -501,21 +566,21 @@
 						</div>
 					</div>
 					<!-- Single Widgets -->
-					<div class="col-lg-2">
+					<div class="col-lg-2 col-md-3 col-6">
 						<div class="footer-widegts-single">
 							<h3 class="title">quick links</h3>
 							<ul>
-								<li><a href="#">home</a></li>
-								<li><a href="#">about us</a></li>
-								<li><a href="#">services</a></li>
+								<li><a href="index.html">home</a></li>
+								<li><a href="about.html">about us</a></li>
+								<li><a href="service.html">services</a></li>
 								<li><a href="#">portfolios</a></li>
-								<li><a href="#">blogs</a></li>
-								<li><a href="#">contact us</a></li>
+								<li><a href="blog.html">blogs</a></li>
+								<li><a href="contact.html">contact us</a></li>
 							</ul>
 						</div>
 					</div>
 					<!-- Single Widgets -->
-					<div class="col-lg-2">
+					<div class="col-lg-2 col-md-3 col-6">
 						<div class="footer-widegts-single">
 							<h3 class="title">Service links</h3>
 							<ul>
@@ -580,7 +645,9 @@
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/ajax-form.js"></script>
     <script src="assets/js/mobile-menu.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
