@@ -226,15 +226,15 @@
                     margin: 0,
                     center:false,
                 },
-                600:{
-                    items:2,
+                677:{
+                    items:1,
                     center:false,
                 },
                 768:{
                     items:2,
                     center:false,
                 },
-                992:{
+                1200:{
                     items:3,
                 },
             }

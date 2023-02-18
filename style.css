@@ -980,6 +980,22 @@ p{
 .hero-slider-item.slider2 .hero-caption p {
     color: #fff;
 }
+@media (max-width:1600px){
+    .hero-area .shap-img img.shap1 {
+        left: 4%;
+    }
+    .hero-slider-area .shap-img img.shap1 {
+        left: 4%;
+    }
+}
+@media (max-width:1400px){
+    .hero-area .shap-img img.shap1 {
+        left: 0;
+    }
+    .hero-slider-area .shap-img img.shap1 {
+        left: 0%;
+    }
+}
 /*
  * #-Info Area
 */
@@ -1573,7 +1589,7 @@ span.slidenav:hover{
     position: absolute;
     right: 4%;
     top: 2%;
-    z-index: 999;
+    z-index: 9;
 }
 .homeabout-shape1 h2{
     font-weight: 500;
@@ -4291,4 +4307,7 @@ a.video-btn {
 }
 .header-bottom.transparent-header.sticky .logo img.bg-transparent-logo {
     display: block;
+}
+.button-area-about-footer span {
+    display: none;
 }
