@@ -974,6 +974,9 @@ p{
     right: 10%;
     top: 18%;
 }
+.hero-slider-item.slider2 .hero-caption h5{
+    color: #FFFFFF
+}
 .hero-slider-item.slider2 .hero-caption h2 {
     color: #fff;
 }
@@ -2154,6 +2157,12 @@ span.slidenav:hover{
     border-radius: 50%;
     z-index: -1;
 }
+.info-box-2 h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 9px 0px;
+}
 /*
  * Info Box 4
 */
@@ -2322,6 +2331,9 @@ span.slidenav:hover{
 .get-appointment-area .shap img.shap4 {
     right: 6%;
     top: 48%;
+}
+.get-appointment-form p span{
+    color: #DF5646
 }
 .get-appointment-form .single-field{
     padding-bottom: 20px;
