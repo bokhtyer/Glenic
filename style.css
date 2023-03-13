@@ -1,6 +1,6 @@
 /*
-Template Name: Glenic - Health & Medical HTML5 Template
-Description: Glenic - Health & Medical HTML5 Template
+Template Name: MediHelth - Health & Medical HTML5 Template
+Description: MediHelth - Health & Medical HTML5 Template
 Author: CodexUnicTheme
 Version: 1.0
  *--------------CSS INDEX------------
@@ -966,7 +966,7 @@ p{
     padding-bottom: 200px;
 }
 @media (max-width:1400px){
-    .hero-slider-item.slider2 {
+    .hero-slider-full2 .hero-slider-item.slider2 {
         padding-top: 240px;
         padding-bottom: 180px;
     }
