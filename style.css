@@ -1,6 +1,6 @@
 /*
-Template Name: MediHelth - Health & Medical HTML5 Template
-Description: MediHelth - Health & Medical HTML5 Template
+Template Name: Supermedi - Health & Medical HTML5 Template
+Description: Supermedi - Health & Medical HTML5 Template
 Author: CodexUnicTheme
 Version: 1.0
  *--------------CSS INDEX------------
@@ -1257,15 +1257,12 @@ p{
  * #-Checkup Area
 */
 .checkup-area {
-    padding: 125px 0px;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .checkup-area .section-title{
-	max-width: 800px;
-	width: 100%;
-	margin: auto;
+    padding-left: 20px;
 }
 .checkup-area .section-title h2{
 	color: #ffffff
@@ -2121,6 +2118,15 @@ span.slidenav:hover{
     color: var(--primary-color);
     background: #fff;
 }
+.blog-single-item a.blog-btn{
+    color: var(--headding-color);
+}
+.blog-single-item a.blog-btn:hover{
+    color: var(--primary-color);
+}
+.blog-single-item a.blog-btn i{
+    margin-left: 10px;
+}
 /*
  * info Box 2
 */
@@ -2315,11 +2321,11 @@ span.slidenav:hover{
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
-    color: #fff;
+    color: var(--headding-color);
 }
 .what-we-best-content .we-icon-box .content h5 a{
     font-family: 'Halyard Display';
-    color: #fff;
+    color: var(--headding-color);
 }
 /*
  * #-Get Appointment Form

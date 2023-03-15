@@ -363,6 +363,9 @@
 	.journey-area.pb-120 {
 		padding-bottom: 70px;
 	}
+	.checkup-area .section-title{
+	    padding-left: 0px;
+	}
 	.why-choose-or-client-section .image.services-image-sec {
 		margin-top: 0px;
 		margin-left: 0px;
